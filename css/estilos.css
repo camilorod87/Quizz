@@ -1,0 +1,90 @@
+body
+{
+background-image 
+
+}
+
+
+.petalos
+{
+	width: 100px;
+	height: 100px;
+	border: 3px dotted #FFFFFF;
+}
+
+#uno
+{
+	left: 0;
+	border-radius: 50% 50% 0% 50%;
+	background:red;
+}
+
+#dos
+{
+	left: 100px;
+	border-radius: 50% 50% 50% 0%;
+	background:blue;
+}
+
+#tres
+{
+	left: 0;
+	top: 100px;
+	border-radius: 50% 0% 50% 50%;
+	background:green;
+}
+
+#cuatro
+{
+	left: 100px;
+	top: 100px;
+	border-radius:0% 50% 50% 50%;
+	background:yellow;
+}
+
+.col
+{
+	float: left;
+	position: absolute;
+}
+
+.col2
+{
+	top: 100px;
+	float: left;
+	position: absolute;
+}
+
+#girar
+{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: auto;
+	margin-top: 60px;
+	transition: all 5s;
+}
+#girar:hover
+{
+
+	-webkit-transform: rotate(1115deg);
+}
+
+body 
+	{
+		font-family: 'Indie Flower', cursive;
+		background-image:url('../img/pasje.gif');
+		background-position: center 50%;
+		background-repeat:no-repeat;
+		color: green;
+	}
+
+p
+{
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.65);
+	padding: 5px 15px;
+	text-decoration: none;
+	text-shadow: 3px 3px 10px rgba(0,0,0,0.4); 
+	width: 200px;
+}
